@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.INTERNET"/>
+<application android:allowBackup="true" android:icon="@drawable/app_icon" android:roundIcon="@drawable/app_icon" android:label="Multiplus Mail" android:supportsRtl="true" android:theme="@style/AppTheme">
+<activity android:name=".ContainerActivity1" android:process=":mail1" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity2" android:process=":mail2" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity3" android:process=":mail3" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity4" android:process=":mail4" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity5" android:process=":mail5" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity6" android:process=":mail6" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity7" android:process=":mail7" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity8" android:process=":mail8" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity9" android:process=":mail9" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity10" android:process=":mail10" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity11" android:process=":mail11" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity12" android:process=":mail12" android:screenOrientation="portrait" android:exported="false"/>
+
+<activity android:name=".ContainerActivity13" android:process=":mail13" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity14" android:process=":mail14" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity15" android:process=":mail15" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity16" android:process=":mail16" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity17" android:process=":mail17" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity18" android:process=":mail18" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity19" android:process=":mail19" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity20" android:process=":mail20" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity21" android:process=":mail21" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity22" android:process=":mail22" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity23" android:process=":mail23" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity24" android:process=":mail24" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity25" android:process=":mail25" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity26" android:process=":mail26" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity27" android:process=":mail27" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity28" android:process=":mail28" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity29" android:process=":mail29" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity30" android:process=":mail30" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity31" android:process=":mail31" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity32" android:process=":mail32" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity33" android:process=":mail33" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity34" android:process=":mail34" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity35" android:process=":mail35" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity36" android:process=":mail36" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity37" android:process=":mail37" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity38" android:process=":mail38" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity39" android:process=":mail39" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity40" android:process=":mail40" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity41" android:process=":mail41" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity42" android:process=":mail42" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity43" android:process=":mail43" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity44" android:process=":mail44" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity45" android:process=":mail45" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity46" android:process=":mail46" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity47" android:process=":mail47" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity48" android:process=":mail48" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity49" android:process=":mail49" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".ContainerActivity50" android:process=":mail50" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".LoginPickerActivity" android:screenOrientation="portrait" android:exported="false"/>
+<activity android:name=".MainActivity" android:screenOrientation="portrait" android:exported="true">
+<intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+</activity>
+</application></manifest>

@@ -1,0 +1,2 @@
+package com.jahid.multiplusmail;
+public class MailAccount{public String id,name,provider,url;public int slot;public MailAccount(String id,String name,String provider,String url,int slot){this.id=id;this.name=name;this.provider=provider;this.url=url;this.slot=slot;}}

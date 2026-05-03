@@ -1,0 +1,9 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.jahid.multiplusmail'; compileSdk 35
+ defaultConfig { applicationId "com.jahid.multiplusmail"; minSdk 28; targetSdk 35; versionCode 43; versionName "https://t.me/JAHID_1" } }
+dependencies {
+ implementation 'androidx.appcompat:appcompat:1.7.0'
+ implementation 'androidx.recyclerview:recyclerview:1.3.2'
+ implementation 'androidx.cardview:cardview:1.0.0'
+ implementation 'com.google.android.material:material:1.12.0'
+}

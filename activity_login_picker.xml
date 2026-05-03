@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_picker" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+<ImageView android:src="@drawable/ic_app_logo" android:layout_width="54dp" android:layout_height="54dp" android:layout_marginRight="10dp"/>
+<TextView android:text="Multiplus Mail" android:textColor="#FFFFA55A" android:textSize="27sp" android:textStyle="bold" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<TextView android:text="•••" android:textColor="@color/text" android:textSize="26sp" android:gravity="center" android:background="@drawable/top_button_bg" android:layout_width="54dp" android:layout_height="48dp"/>
+</LinearLayout>
+<TextView android:text="Set up email" android:textSize="34sp" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:layout_marginTop="38dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="Choose provider and create a separate saved container" android:textSize="15sp" android:textColor="@color/muted" android:gravity="center" android:layout_marginTop="8dp" android:layout_marginBottom="28dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<LinearLayout android:id="@+id/rowGoogle" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/provider_row_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginBottom="14dp" android:layout_width="match_parent" android:layout_height="76dp">
+<ImageView android:src="@drawable/ic_google" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginRight="16dp"/>
+<TextView android:text="Google" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/ic_arrow_right" android:layout_width="28dp" android:layout_height="28dp"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/rowOutlook" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/provider_row_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginBottom="14dp" android:layout_width="match_parent" android:layout_height="76dp">
+<ImageView android:src="@drawable/ic_outlook" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginRight="16dp"/>
+<TextView android:text="Outlook, Hotmail, Live" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/ic_arrow_right" android:layout_width="28dp" android:layout_height="28dp"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/rowYahoo" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/provider_row_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginBottom="14dp" android:layout_width="match_parent" android:layout_height="76dp">
+<ImageView android:src="@drawable/ic_yahoo" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginRight="16dp"/>
+<TextView android:text="Yahoo" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/ic_arrow_right" android:layout_width="28dp" android:layout_height="28dp"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/rowExchange" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/provider_row_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginBottom="14dp" android:layout_width="match_parent" android:layout_height="76dp">
+<ImageView android:src="@drawable/ic_exchange" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginRight="16dp"/>
+<TextView android:text="Exchange and Office 365" android:textSize="19sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/ic_arrow_right" android:layout_width="28dp" android:layout_height="28dp"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/rowOther" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/provider_row_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginBottom="14dp" android:layout_width="match_parent" android:layout_height="76dp">
+<ImageView android:src="@drawable/ic_other" android:layout_width="52dp" android:layout_height="52dp" android:layout_marginRight="16dp"/>
+<TextView android:text="Other" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/ic_arrow_right" android:layout_width="28dp" android:layout_height="28dp"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

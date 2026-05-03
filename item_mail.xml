@@ -1,0 +1,13 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent" android:layout_height="128dp" android:layout_margin="5dp"
+ card_view:cardCornerRadius="24dp" card_view:cardElevation="4dp" card_view:cardBackgroundColor="@color/card">
+ <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+  <ImageView android:id="@+id/imgProvider" android:src="@drawable/ic_google" android:layout_width="48dp" android:layout_height="48dp"/>
+  <TextView android:id="@+id/txtSerial" android:text="Google 1" android:textColor="@color/text" android:textStyle="bold" android:textSize="18sp" android:gravity="center" android:maxLines="1" android:layout_marginTop="7dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+    <ImageView android:id="@+id/imgNameIcon" android:src="@drawable/ic_name_mail" android:layout_width="19dp" android:layout_height="19dp" android:layout_marginRight="5dp"/>
+    <TextView android:id="@+id/txtName" android:text="Gmail" android:textColor="@color/muted" android:textSize="13sp" android:gravity="center" android:maxLines="1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </LinearLayout>
+  <TextView android:id="@+id/txtProvider" android:text="Google" android:textColor="@color/muted" android:textSize="1sp" android:visibility="gone" android:layout_width="1dp" android:layout_height="1dp"/>
+ </LinearLayout>
+</androidx.cardview.widget.CardView>
