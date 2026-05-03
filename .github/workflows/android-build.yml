@@ -1,0 +1,42 @@
+name: Android APK Build Final GitHub Build Fix
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Setup JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Setup Gradle 8.7
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+      - name: Rebuild Android project structure
+        run: |
+          mkdir -p app/src/main/java/com/jahid/multiplusmail
+          mkdir -p app/src/main/res/layout
+          mkdir -p app/src/main/res/drawable
+          mkdir -p app/src/main/res/values
+          cp app_build.gradle app/build.gradle
+          cp AndroidManifest.xml app/src/main/AndroidManifest.xml
+          cp *.java app/src/main/java/com/jahid/multiplusmail/
+          cp activity_main.xml activity_login_picker.xml activity_mail_webview.xml item_mail.xml app/src/main/res/layout/
+          cp strings.xml colors.xml styles.xml app/src/main/res/values/
+          cp ic_app_logo.xml ic_google.xml ic_outlook.xml ic_yahoo.xml ic_exchange.xml ic_other.xml ic_name_mail.xml ic_nav_home.xml ic_nav_back.xml ic_nav_refresh.xml ic_arrow_right.xml bg_premium.xml bg_picker.xml search_bg.xml card_bg.xml topbar_bg.xml provider_row_bg.xml helper_btn_bg.xml helper_bar_bg.xml top_button_bg.xml admin_card_bg.xml header_icon_bg.xml app/src/main/res/drawable/
+          cp app_icon.png app/src/main/res/drawable/
+      - name: Build Debug APK
+        run: gradle assembleDebug
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: MultiplusMail-FINAL-GITHUB-BUILD-FIX
+          path: app/build/outputs/apk/debug/app-debug.apk
